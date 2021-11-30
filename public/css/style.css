@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
+#login .form {
+  height: 100vh;
+  width: 100%;
+  background: url("/images/bella.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#login .form .landr {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.8);
+}
+#login .form .landr h2 {
+  color: #000;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+}
+#login .form .landr input[type=text], #login .form .landr input[type=email], #login .form .landr input[type=password] {
+  border: 2px solid #fff;
+  background: none;
+  outline: none;
+  color: #000;
+  font-family: poppins;
+  padding: 10px 10px;
+}
+#login .form .landr input[type=text]:focus, #login .form .landr input[type=email]:focus, #login .form .landr input[type=password]:focus {
+  font-family: poppins;
+}
+#login .form .landr .forgot {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+}
+#login .form .landr .forgot:hover {
+  text-decoration: none;
+}
+#login .form .landr button {
+  width: 100%;
+  font-size: poppins;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color: #fff;
+  transition: all ease 0.3s;
+}
+#login .form .landr button:hover {
+  opacity: 0.5;
+}
+#login .form .landr .para {
+  font-weight: bold;
+}
+#login .verificacion {
+  width: 500px;
+  background: rgba(255, 255, 255, 0.8);
+}
+#login .verificacion h1 {
+  font-weight: 600;
+  font-family: poppins;
+  font-size: 32px;
+  line-height: 42px;
+}
+#login .verificacion h4 {
+  font-size: 16px;
+}
+#login .verificacion .fvery button {
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+
+#menu {
+  background: #1D1B43;
+}
+#menu .nav .nav-link {
+  color: #8E8DA1;
+}
+
+#dashboard {
+  min-height: 400px;
+  background: rgba(26, 24, 62, 0.99);
+}
+#dashboard h5 {
+  color: #fff;
+}
+#dashboard .item {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 22px 10px;
+}
+#dashboard .item .icono {
+  background: rgba(28, 29, 77, 0.5);
+}
+#dashboard .item p {
+  font-size: 18px;
+  font-family: poppins;
+  color: #fff;
+}
